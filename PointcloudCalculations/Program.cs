@@ -19,6 +19,14 @@ namespace PointcloudCalculations
     {
         static void Main(string[] args)
         {
+            Point cameraPoint = new Point();
+            cameraPoint.X = 131453.074;
+            cameraPoint.Y = 398786.554;
+            cameraPoint.Z = 16.889;
+
+            Vector ClickedPointVector = new Vector(1,1,1);
+
+            Vector CenterCameraVector = new Vector(1,1,1);
 
         }
     }
